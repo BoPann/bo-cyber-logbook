@@ -4,4 +4,9 @@ My journey saving the Christmas of Wareville!
 - [day1-where-it-begins](day1-where-it-begins.md)
 - [day2-phishing](day2-phishing.md)
 - [day3-splunk](day3-splunk.md)
-- 
+- [day4-ai](day4-ai.md)
+- [day5-IDOR](day5-IDOR.md)
+- [day6-sandbox](day6-sandbox.md)
+- [day7-network-discovery](day7-network-discovery.md)
+- [day8-hacking-ai](day8-hacking-ai.md)
+- [day9-cracking-password-on-files](day9-cracking-password-on-files.md)

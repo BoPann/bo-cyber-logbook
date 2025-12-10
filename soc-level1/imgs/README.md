@@ -6,3 +6,5 @@ Hello! Welcome to my journey taking SAL1 from Tryhackme :)
 	- [SOC-Workbook-and-Lookup](../SOC-Workbook-and-Lookup.md)
 - L1's duty
 	- [SOC-Metrics-and-Objectives](../SOC-Metrics-and-Objectives.md)
+- MITRE framework
+	- [MITRE](../MITRE.md)
