@@ -13,7 +13,7 @@ In this repo, you’ll find:
 - A short demo of sinkholing in action
 	- [demo](demo.md)
     
-- And, to wrap it up, a walkthrough on setting up your own **Pi-hole** at home for safer, cleaner, and overall better browsing. -> [pi hole set up](https://github.com/BoPann/pi-hole-set-up)
+- And, to wrap it up, a walkthrough on setting up your own **Pi-hole** at home for safer, cleaner, and overall better browsing.
 
 Lastly, this is the official pihole github repo: https://github.com/pi-hole/pi-hole
 
