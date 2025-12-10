@@ -1,0 +1,5 @@
+- [5W report](5W%20report.md)
+- [SOC-Workbook-and-Lookup](SOC-Workbook-and-Lookup.md)
+- [SOC-Metrics-and-Objectives](SOC-Metrics-and-Objectives.md)
+- [Intro-to-EDR](Intro-to-EDR.md)
+- [Intro-to-SIEM](Intro-to-SIEM.md)
