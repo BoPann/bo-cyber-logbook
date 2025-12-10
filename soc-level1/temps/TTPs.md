@@ -1,0 +1,1 @@
+TTPs stand for Tactics, Techniques, and Procedures. They describe the behavior and methodologies that threat actors use to achieve their objectives during cyber operations.
