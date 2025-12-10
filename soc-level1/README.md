@@ -8,3 +8,10 @@ Hello! Welcome to my journey taking SAL1 from Tryhackme :)
 	- [SOC-Metrics-and-Objectives](SOC-Metrics-and-Objectives.md)
 - MITRE framework
 	- [MITRE](MITRE.md)
+- Tool Kits
+	- [Intro-to-EDR](Intro-to-EDR.md)
+	- [Intro-to-SIEM](Intro-to-SIEM.md)
+	- [Intro-to-SOAR](Intro-to-SOAR.md)
+	- [Splunk](Splunk.md)
+	- [Kibana](Kibana.md)
+	- 

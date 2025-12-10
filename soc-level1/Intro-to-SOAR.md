@@ -1,3 +1,4 @@
+# SOAR 🦅
 
 SOAR stands for Security Orchestration, Automation, and Response. It is a solution that helps organisations to streamline and automate their security operations, including incident management, threat intelligence, and vulnerability response.
 

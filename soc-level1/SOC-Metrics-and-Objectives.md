@@ -1,4 +1,4 @@
-# SOC-Metrics-and-Objectives
+# SOC Metrics and Objectives
 ![michael-shakehand](imgs/michael-shakehand.png)
 >L1 is the front line of defense. It’s crucial for L1 analysts to use metrics to measure how well security policies are actually working and to escalate any gaps or inefficiencies to the right people so the overall system keeps improving.
 

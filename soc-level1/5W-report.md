@@ -1,4 +1,4 @@
-# 5W-report
+# 5W report
 ![ryan](/imgs/ryan.png)
 >It is essential to document what you see in the SIEM and determine if it needs to be escalated. 
 

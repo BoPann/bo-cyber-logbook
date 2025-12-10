@@ -4,7 +4,8 @@ modified: 2025-12-04 10:51
 tags:
   - cyber/tool
 ---
-- [ ] ## What does it do?
+# Kibana
+## Overview
 Similar to Splunk, it allows user to visualize and analyze data. 
 
 ## Key Words

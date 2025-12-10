@@ -4,6 +4,8 @@ modified: 2025-12-04 22:48
 tags:
   - cyber/dfd
 ---
+# Fuzzy Hashing
+
 >Small changes to a file completely break traditional hashes, which attackers abuse to make malware look “new” even when it’s basically the same.
 
 ## solution
