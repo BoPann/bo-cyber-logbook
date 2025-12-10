@@ -10,7 +10,7 @@ tags:
 - Weaponization
 	- create Malware, exploits, payload
 - Delivery
-	- phishing, USB, [watering hole](watering%20hole.md)
+	- phishing, USB, [watering-hole](watering-hole.md)
 - Exploitation
 	- Exploitation is the moment the attacker's code executes on the target, taking advantage of a known vulnerability
 	- malicious macro exe, 0-day, known CVEs

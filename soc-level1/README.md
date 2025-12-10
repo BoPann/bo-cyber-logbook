@@ -1,7 +1,7 @@
 Hello! Welcome to my journey taking SAL1 from Tryhackme :)
 
 - How to write a good report
-	- [5W report](5W%20report.md)
+	- [5W-report](5W-report.md)
 - Utilize resource available to analyze threats
 	- [SOC-Workbook-and-Lookup](SOC-Workbook-and-Lookup.md)
 - L1's duty
