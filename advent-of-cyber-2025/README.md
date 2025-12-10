@@ -10,3 +10,4 @@ My journey saving the Christmas of Wareville!
 - [day7-network-discovery](day7-network-discovery.md)
 - [day8-hacking-ai](day8-hacking-ai.md)
 - [day9-cracking-password-on-files](day9-cracking-password-on-files.md)
+- [day-10-SOC-triage](day-10-SOC-triage.md)

@@ -1,5 +1,9 @@
-#cyber/tool 
-
+---
+creation date: 2025-12-03 22:51
+modified: 2025-12-09 23:54
+tags:
+  - cyber/tool
+---
 # Splunk
 
 [Splunk Office Doc](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/NavigatingSplunk)
