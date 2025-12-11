@@ -28,6 +28,7 @@ The troubleshooting process will depend on the OS the device is currently runnin
 	- `ping the default gateway` (if can't the problem is inside local network)
 	- `arp -a` 
 	- **Verify the Default Gateway's IP and MAC address appear** in the ARP cache.
+	
 ### 2.4 Layer 3
 - Do you have an assigned ip? 
 	- `ipconfig /all` for windows
