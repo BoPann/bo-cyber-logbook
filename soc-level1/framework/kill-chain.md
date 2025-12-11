@@ -17,7 +17,7 @@ tags:
 - Installation
 	- back door
 	- Once the attacker gets access to the system, he would want to reconnect back to the system if he loses the connection to it or if he got detected and got the initial access removed.
-	- web shell, meterpreter, [Masquerading](Masquerading.md), [Timestomp](Timestomp.md)
+	- web shell, meterpreter, [masquerading](masquerading.md), [Timestomp](Timestomp.md)
 - Command & Control 
 	- C2
 	- continuing talking the C2 server 

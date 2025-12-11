@@ -1,17 +1,32 @@
-Hello! Welcome to my journey taking SAL1 from Tryhackme :)
+# Bo's SOC Analyst Logbook
+> Hello! Welcome to my journey taking SAL1 from Tryhackme :)
 
+## Basic Skills
 - How to write a good report
-	- [5W-report](5W-report.md)
+	- [Writing a Good Report](5W-report.md)
 - Utilize resource available to analyze threats
 	- [SOC-Workbook-and-Lookup](SOC-Workbook-and-Lookup.md)
-- L1's duty
-	- [SOC-Metrics-and-Objectives](SOC-Metrics-and-Objectives.md)
-- MITRE framework
-	- [MITRE](MITRE.md)
+- SOC L1's duty
+	- [SOC Metrics and Objectives](SOC-Metrics-and-Objectives.md)
+
+## Technical Skills
+- Framework
+	- [MITRE](framework/MITRE.md)
+	- [Pyramid of Pain](framework/Pyramid-of-Pain.md)
+	- [Unified Kill Chain](framework/unified-kill-chain.md) and its predecessor [Kill Chain](framework/kill-chain.md)
+
 - Tool Kits
-	- [Intro-to-EDR](Intro-to-EDR.md)
-	- [Intro-to-SIEM](Intro-to-SIEM.md)
-	- [Intro-to-SOAR](Intro-to-SOAR.md)
+	- [SIEM](Intro-to-SIEM.md)
+	- [EDR](Intro-to-EDR.md)
+	- [SOAR](Intro-to-SOAR.md)
 	- [Splunk](Splunk.md)
 	- [Kibana](Kibana.md)
-	- 
+
+- Analysis 
+	- [Phishing](phishing/phishing.md)
+
+* Monitoring
+	* Network
+	* Web Security
+	* Windows Security
+	* Linux Security

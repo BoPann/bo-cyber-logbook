@@ -11,12 +11,12 @@ Detection engineering is the continuous process of building and operating threat
 	- threat behavior detections
 
 ## Framework
-- [MITRE](MITRE.md)
+- [MITRE](framework/MITRE.md)
 	- MITRE ATT&CK - shows what attackers usually do in the real world. see [official MITRE ATT&CK Doc](https://attack.mitre.org/matrices/enterprise/)
 	- MITRE CAR - In contrast to ATT&CK, it shows how to catch them! see [official MITRE CAR Doc](https://car.mitre.org/analytics/)
 
-- Pyramid of Pain - how difficult it is for attackers when defenders block different types of indicators. see [Pyramid-of-Pain](Pyramid-of-Pain.md)
-- Cyber Kill Chain - the steps that cyber attacks commonly follow. It then be developed into  [Unified Kill Chain](unified-kill-chain.md) which covers 18 phases. see [Official Cyber Kill Chain Doc](https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf)
+- Pyramid of Pain - how difficult it is for attackers when defenders block different types of indicators. see [Pyramid-of-Pain](framework/Pyramid-of-Pain.md)
+- Cyber Kill Chain - the steps that cyber attacks commonly follow. It then be developed into  [Unified Kill Chain](framework/unified-kill-chain.md) which covers 18 phases. see [Official Cyber Kill Chain Doc](https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf)
 	- Reconnaissance
 	- Weaponisation
 	- Delivery
