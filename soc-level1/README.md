@@ -16,11 +16,11 @@
 	- [Unified Kill Chain](framework/unified-kill-chain.md) and its predecessor [Kill Chain](framework/kill-chain.md)
 
 - Tool Kits
-	- [SIEM](Intro-to-SIEM.md)
-	- [EDR](Intro-to-EDR.md)
-	- [SOAR](Intro-to-SOAR.md)
-	- [Splunk](Splunk.md)
-	- [Kibana](Kibana.md)
+	- [SIEM](tools/SIEM.md)
+	- [EDR](tools/EDR.md)
+	- [SOAR](tools/SOAR.md)
+	- [Splunk](tools/Splunk.md)
+	- [Kibana](tools/Kibana.md)
 
 - Analysis 
 	- [Phishing](phishing/phishing.md)

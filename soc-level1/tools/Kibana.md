@@ -17,4 +17,4 @@ Similar to Splunk, it allows user to visualize and analyze data.
 ## There seems to be a problem with THM machine. Will circle back for this lesson
 
 
-![](../../imgs/kabina.png)
+![](../../../imgs/kabina.png)

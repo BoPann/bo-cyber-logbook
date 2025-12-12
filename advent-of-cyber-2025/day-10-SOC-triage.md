@@ -26,7 +26,7 @@ Similar to how we handled the **SOC Workbook and Lookup**, what we’re doing he
 
 
 ## 4. Extended Readings
-- [Intro-to-SIEM](../soc-level1/Intro-to-SIEM.md)
-- [Intro-to-SOAR](../soc-level1/Intro-to-SOAR.md)
-- [Splunk](../soc-level1/Splunk.md)
+- [SIEM](../soc-level1/tools/SIEM.md)
+- [SOAR](../soc-level1/tools/SOAR.md)
+- [Splunk](../soc-level1/tools/Splunk.md)
 - [SImilar Product from GOOGLE](https://cloud.google.com/security/products/security-operations)

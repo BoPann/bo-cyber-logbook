@@ -23,7 +23,7 @@ MITRE is a comprehansive framework including aspect from attacking to defending.
 
 
 ### 2.3 MITRE CAR (Cyber Analytics Repo)
-- CAR is explicitly a **knowledge base of analytics** developed by MITRE that leverages the ATT&CK model. It defines a data model and includes **pseudocode** descriptions, often with direct implementations for specific tools like **Splunk** and **EQL** (Event Query Language). Its goal is to provide validated, well-explained ways to _detect_ the adversary behaviors documented in ATT&CK. [Splunk](Splunk.md)
+- CAR is explicitly a **knowledge base of analytics** developed by MITRE that leverages the ATT&CK model. It defines a data model and includes **pseudocode** descriptions, often with direct implementations for specific tools like [Splunk](../tools/Splunk.md ) and **EQL** (Event Query Language). Its goal is to provide validated, well-explained ways to _detect_ the adversary behaviors documented in ATT&CK. 
 
 ### 2.4 D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) - [D3FEND](https://d3fend.mitre.org/)
 - D3FEND is designed as a **complementary framework** to ATT&CK, focusing on the **defensive side**. It is a **knowledge graph** that provides a structured, standardized taxonomy of defensive cybersecurity countermeasures and their relationships to offensive techniques (from ATT&CK). It organizes defensive techniques into tactics like **Harden**, **Detect**, **Isolate**, and **Deceive**.
