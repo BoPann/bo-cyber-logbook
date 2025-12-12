@@ -1,3 +1,8 @@
+---
+creation date: 2025-11-30 18:50
+modified: 2025-12-12 09:38
+tags:
+---
 # Bo's SOC Analyst Logbook
 > Hello! Welcome to my journey taking SAL1 from Tryhackme :)
 
@@ -30,3 +35,6 @@
 	* Web Security
 	* Windows Security
 	* Linux Security
+
+
+>last modified: 2025-12-12 09:38
