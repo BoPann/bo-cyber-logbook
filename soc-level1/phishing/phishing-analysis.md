@@ -34,15 +34,19 @@
 	- https://toolbox.googleapps.com/apps/messageheader/analyzeheader
 	- https://mha.azurewebsites.net/
 	- https://mailheader.org/
+- Whois lookup
+	- https://www.whois.com/whois/
+	- https://lookup.icann.org/en
 - IP Analysis
 	- https://ipinfo.io/
 - Website Analysis
 	- https://www.url2png.com/#testdrive
-	- https://www.wannabrowser.net/#get=https://bopan.me
+	- https://www.wannabrowser.net/
 	- https://urlscan.io/result/019b0fbe-4531-73eb-aa6f-4bb0473391f6/
 	- https://talosintelligence.com/reputation_center/lookup?search=capitai-one.com
 - Domain Analysis
 	- https://mxtoolbox.com/SuperTool.aspx
+	- https://urlscan.io/
 
 - extract link is tedious, here are some tools to help with that (thank god)
 	- https://www.convertcsv.com/url-extractor.htm

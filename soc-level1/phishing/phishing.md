@@ -10,7 +10,6 @@ tags:
 
 ## 1. Overview
 - how sending email work - [how-email-works](how-email-works.md)
-- how to read email
 - [Types of Phshing](types-of-phshing.md)
 - [Physhing Analysis](phishing-analysis.md)
 - [Prevention](Prevention.md)
