@@ -26,6 +26,7 @@ tags:
 	- [SOAR](tools/SOAR.md)
 	- [Splunk](tools/Splunk.md)
 	- [Kibana](tools/Kibana.md)
+	- [Wireshark](tools/wireshark.md)
 
 - Analysis 
 	- [Phishing](phishing-analysis/phishing.md)
