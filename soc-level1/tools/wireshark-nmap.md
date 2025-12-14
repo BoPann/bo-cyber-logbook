@@ -14,6 +14,7 @@ Here are some common filter in wiereshark to detect port scanning including **TC
 |**FIN**|Finish/Graceful end of connection (FIN Scan)|`tcp.flags == 1`|`tcp.flags.fin == 1`|
 |**NULL**|No flags set (NULL Scan)|`tcp.flags == 0`|_(No specific single flag filter)_|
 |**Global Search**|Any TCP Traffic|_(Not applicable)_|`tcp`|
+
 ### UDP Scan
 
 |**Packet Type**|**Description**|**Wireshark Filter**|**Port Status Indication**|
