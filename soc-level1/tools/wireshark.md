@@ -30,11 +30,15 @@
 	- same above, we can also view the proportion of the protocol by doing **statistics -> protocol hierarchy
 	- **endpoint** allows us to see more unique info such as contry
 	- Name resolution is not enbaled by default. To enable do **Edit --> Preferences --> Name Resolution**
-	- 
+- Common Field
+	- `eth.src`, `eth.dst` `ip.src`, `http`, 
 - For details see [Wireshark Official Guide](https://www.wireshark.org/docs/)
 
 ### 2.2 Common Analysis
 - [Nmap Scan](wireshark-nmap.md)
+- Spoofing Scan 
+	- When a devices sent out multiple arp request or claiming multiple ip address, it should be examined. 
+	- When submitting credential, we are using `POST` reuqest. So we can filter wireshark using that. 
 
 
 ## Limitation 
