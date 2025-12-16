@@ -4,9 +4,11 @@
 - Detecting and troubleshooting network problems, such as network load failure points and congestion.
 - Detecting security anomalies, such as rogue hosts, abnormal port usage, and suspicious traffic.
 - Investigating and learning protocol details, such as response codes and payload data.
+- Wireshark is a great tool but it can be overwhelming. My strategy is learn how to analyze the traffic rather than memorizing all the code and syntax. 
 
 ## 2. Description 
 ### 2.1 There are so many to learn in here. I will document things that I think can be helpful. 
+ - use **apply column** or **apply Filter** when see fit. This is helpful. 
  - see file details: statistics - >capture file property 
  - merge file: ffile -> merge 
  - right click on packet allows us to apply fiter 
@@ -39,7 +41,10 @@
 - Spoofing Scan 
 	- When a devices sent out multiple arp request or claiming multiple ip address, it should be examined. 
 	- When submitting credential, we are using `POST` reuqest. So we can filter wireshark using that. 
-
+- [Identify Host](wireshark-identify-host.md)
+- [Tunnelling](wireshark-tunnelling.md)
+- [wireshark-ftp](wireshark-ftp.md)
+- 
 
 ## Limitation 
 Wireshark is not an Intrusion Detection System (IDS). It only allows analysts to discover and investigate the packets in depth. It also doesn't modify packets; it reads them. Hence, detecting any anomaly or network problem highly relies on the analyst's knowledge and investigation skills.
