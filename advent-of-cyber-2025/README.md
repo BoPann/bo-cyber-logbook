@@ -17,26 +17,5 @@ My journey saving the Christmas of Wareville!
 - [day14-docker-container](day14-docker-container.md)
 - [day15-web-attack-forensics](day15-web-attack-forensics.md)
 - [day16-windows-registry-forensics](day16-windows-registry-forensics.md)
-- [day17-cyberchef](day17-cyberchef.md)[^1]
+- [day17-cyberchef](day17-cyberchef.md)
 
-%% Testing to see how this will look on web %%
-
-$Testing to see how this will look on web$
-
-- [ ] erfijerg
-- [ ] epirjgierjg
-- [ ] epirjgoierjg
-- [ ] peirjgrip
-
-
-| tgrtg  | rtgrtg | rtgrt |     |
-| ------ | ------ | ----- | --- |
-| rtgrtg | tgrtg  | tg    |     |
-| rtg    | rtg    | rtg   |     |
-
-> [!NOTE]
-> Hello World!
-> 
-
-
-[^1]: Testing to see how this will look on web
