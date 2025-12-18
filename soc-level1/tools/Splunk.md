@@ -22,6 +22,7 @@ Almost the first thing we want to look into is the **Fields** pane (like many ot
 - Having so many fields displayed can be overwhelming. We can do `| fields to only display the fields we want`
 - ![](../imgs/fields-command-min.png)
 
+- For searching, simply type it after a space 
 - Or we can do `| search "Powershell"` to search the keyword we want. (but not sure how this is different from directly typing the keyword in the search bar)
 - ![](../imgs/seachbar-min.png)
 
@@ -42,7 +43,6 @@ Almost the first thing we want to look into is the **Fields** pane (like many ot
 - ![](../imgs/table-command-min.png)
 
 - If a reuslt is number than we can also use command `stats` to return the stats
-
 - ![](../imgs/stats-command-min.png)
 
 ### Resources
