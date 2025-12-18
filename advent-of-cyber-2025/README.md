@@ -15,3 +15,8 @@ My journey saving the Christmas of Wareville!
 - [day12-phishing](day12-phishing.md)
 - [day13-YARA](day13-YARA.md)
 - [day14-docker-container](day14-docker-container.md)
+- [day15-web-attack-forensics](day15-web-attack-forensics.md)
+- [day16-windows-registry-forensics](day16-windows-registry-forensics.md)
+- [day17-cyberchef](day17-cyberchef.md)
+
+%% Testing to see this will look on web %%
