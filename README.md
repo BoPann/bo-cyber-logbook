@@ -18,13 +18,13 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 
 # 2. My Logs
 
-### Things I am currently working on
+### 2.1 Things I am currently working on
 - [My SOC Analyst Logbook](soc-level1/README.md)
 - [Advent of Cyber Logbook](advent-of-cyber-2025/README.md)
 - [Help Desk Logbook](tcm-practical-help-desk/README.md)
-### Some Events
+### 2.2 Some Events
 - [Live Session with John Hammond on Deception Detection](../detection-deception.md)
-## 2.2 Some Old Projects 
+## 2.3 Some Old Projects 
 - [Sinkholing](sinkhole/README.md)
 - [Pi-Hole Set Up Walkthrough](sinkhole/pi-hole-set-up/README.md)
 
