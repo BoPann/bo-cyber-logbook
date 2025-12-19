@@ -23,7 +23,7 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 - [Advent of Cyber Logbook](advent-of-cyber-2025/README.md)
 - [Help Desk Logbook](tcm-practical-help-desk/README.md)
 ### 2.2 Some Events
-- [Live Session with John Hammond on Deception Detection](../detection-deception.md)
+- [Live Session with John Hammond on Deception Detection](detection-deception.md)
 ## 2.3 Some Old Projects 
 - [Sinkholing](sinkhole/README.md)
 - [Pi-Hole Set Up Walkthrough](sinkhole/pi-hole-set-up/README.md)
