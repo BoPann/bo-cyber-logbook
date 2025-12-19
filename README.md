@@ -1,3 +1,8 @@
+---
+creation date: 2025-12-09 19:18
+modified: 2025-12-19 12:59
+tags:
+---
 # 1. README
 Hi there! Welcome to Bo Cyber Logbook!
 ## 1.1 Motivation 
@@ -11,12 +16,16 @@ Those entries (plus the “please stop doing that” notes) actually helped me a
 So that’s why I’m doing this cyber log. Writing these entries helps me keep track of what I’ve learned, connect the dots, and laugh at my own mistakes. Plus, it’s a cool way to connect with you -- someone who’s into the same cybersecurity madness.
 And who knows? Maybe this will help others who are on the same journey too. 😊 
 
-# 2. Things I am currently working on!
+# 2. My Logs
 
+### Things I am currently working on
 - [My SOC Analyst Logbook](soc-level1/README.md)
 - [Advent of Cyber Logbook](advent-of-cyber-2025/README.md)
 - [Help Desk Logbook](tcm-practical-help-desk/README.md)
-
-## Some Old Projects 
+### Some Events
+- [Live Session with John Hammond on Deception Detection](../detection-deception.md)
+## 2.2 Some Old Projects 
 - [Sinkholing](sinkhole/README.md)
 - [Pi-Hole Set Up Walkthrough](sinkhole/pi-hole-set-up/README.md)
+
+>last modified: 2025-12-19

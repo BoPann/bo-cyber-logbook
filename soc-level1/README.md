@@ -6,8 +6,7 @@ tags:
 # Bo's SOC Analyst Logbook
 > Hello! Welcome to my journey taking SAL1 from TryHackMe :)
 
-[My Mid Way Review](../mid-review.md) (yoohoo! half way through!)
-
+- [My Mid Way Review](../mid-review.md) (yoohoo! half way through!)
 ## Technical Skills
 - Framework
 	- [MITRE](framework/MITRE.md)
@@ -33,7 +32,7 @@ tags:
 	* Linux Security
 	
 ## Basic Skills
--  [How to Writing a Good Report?](5W-report.md)
+-  [How to Write a Good Report?](5W-report.md)
 - [SOC Workbook and Lookup](SOC-Workbook-and-Lookup.md)
 - [SOC Metrics and Objectives](SOC-Metrics-and-Objectives.md)
 

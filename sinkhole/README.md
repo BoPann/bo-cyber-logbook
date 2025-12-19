@@ -1,6 +1,6 @@
 # sinkhole
 
-Hi there! This is my study note on **DNS sinkholing**, created for my _Security in Computing_ presentation at Seattle University, taught by Professor Zhiju Yang.
+Hi there! This is my study note on **DNS sinkholing**, created for my _Security in Computing_ presentation at Seattle University, taught by Professor Zhiju Yang [About Him](https://zhiju.me/). 
 
 In this repo, you’ll find:
 
