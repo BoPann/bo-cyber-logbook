@@ -1,6 +1,14 @@
-I once got into the trap of chasing the percentage. I use that as a evaluation of what I have learned. But quickly I realzed this is not feasible and, of course, not a effective indicator of progress. 
+Today marks my halfway point in the SOC Level 1 certification course. 🎉
 
-The real progress comes from the "struggling" which can often feel long and exhausting. But the "ah-ha" moment is when the real progress comes in. 
+I once fell into the classic trap of chasing percentages. I treated them like a report card for my learning. Turns out, that’s not only unrealistic but also a pretty terrible way to measure real progress.
 
-The most difficult part, honestly, is not "knowing" the knowledge, but being able to articulate my thought and being able to explain a concept in details. It's about connecting the dots and making sense of it. 
+Real progress lives in the  struggle - the long, exhausting “why is my brain buffering right now?” phase. You sit there confused… and then suddenly, out of nowhere, the **ah-ha moment** hits. That’s when everything clicks and you realize, “Ohhh… so _that’s_ what they meant.”
+
+Honestly, the hardest part isn’t  knowing the material. It’s being able to clearly explain it. Putting thoughts into words, connecting the dots, and making the whole picture actually make sense - that’s the real challenge.
+
+### Learning 3 highlights
+
+- SIEM tools like **Kibana** and **Splunk** (especially Splunk), plus network traffic analysis with Wireshark
+- Using tools to analyze data and detect threats such as data exfiltration and MITM attacks
+- Analyzing cybersecurity events using frameworks like MITRE, UKC, and the Pyramid of Pain
 

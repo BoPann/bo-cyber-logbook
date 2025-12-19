@@ -4,15 +4,9 @@ modified: 2025-12-12 09:38
 tags:
 ---
 # Bo's SOC Analyst Logbook
-> Hello! Welcome to my journey taking SAL1 from Tryhackme :)
+> Hello! Welcome to my journey taking SAL1 from TryHackMe :)
 
-## Basic Skills
-- How to write a good report
-	- [Writing a Good Report](5W-report.md)
-- Utilize resource available to analyze threats
-	- [SOC-Workbook-and-Lookup](SOC-Workbook-and-Lookup.md)
-- SOC L1's duty
-	- [SOC Metrics and Objectives](SOC-Metrics-and-Objectives.md)
+[My Mid Way Review](../mid-review.md) (yoohoo! half way through!)
 
 ## Technical Skills
 - Framework
@@ -37,6 +31,11 @@ tags:
 	* Web Security
 	* Windows Security
 	* Linux Security
+	
+## Basic Skills
+-  [How to Writing a Good Report?](5W-report.md)
+- [SOC Workbook and Lookup](SOC-Workbook-and-Lookup.md)
+- [SOC Metrics and Objectives](SOC-Metrics-and-Objectives.md)
 
 
 >last modified: 2025-12-12 09:38
