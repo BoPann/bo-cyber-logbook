@@ -5,7 +5,7 @@ tags:
 ---
 # 1. README
 Hi there! Welcome to Bo Cyber Logbook!
-## 1.1 Motivation 
+## 1. Motivation 
 When I was training to be a pilot, every lesson ended with a ritual: my instructor and I would sit down and debrief. We would talk about what went well, what almost went well, and what absolutely did not go well. Then he’d sign my logbook with all the details including flight time, how many takeoffs and landings I didn’t mess up, how long we stayed in the air, which airports we bothered.
 
 And I’m not gonna lie… I used to stare at that logbook like it was a scrapbook of my best moments. It felt like, “Yep, I survived _that_ lesson. Look at me go.” 
