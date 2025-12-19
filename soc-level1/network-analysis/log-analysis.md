@@ -7,8 +7,11 @@ tags:
 ---
 # Log Analysis
 
-## Overview
+## 1. Overview
 Log is a record of events. Part of what analysts do is to know how to extract valuable information from a pile of logs.  
+### 1.1 Logs 
+- host-centric logs 
+- network-centric logs 
 
 ## Description
 While analyzing log, we want to have an idea of what the fields look like. This is easy if we are using GUI tool like Splunk. We simply nevagate to the left panel to see them (we can also add them to the filter, too) 
@@ -19,4 +22,4 @@ However, in **command line Interface** environment, this can get really overwhel
 	- `cut [delimiter] file -f3-5 | sort | uniq -c` 
 
 
->last modified: 2025-12-17 12:39
+>last modified: 2025-12-17 

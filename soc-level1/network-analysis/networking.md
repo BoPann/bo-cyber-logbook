@@ -4,6 +4,7 @@ modified: 2025-12-10 00:30
 tags:
   - cyber/networking
 ---
+# Networking
 
 >This note assume you already have some basic knowledge in networking. This serves as merely remider of some concepts. 
 
@@ -14,3 +15,10 @@ tags:
 - arp - protoco used for getting MAC addr
 - 4 DHCP meg - discover, request, offer, ack 
 
+### Components
+- user work station (end point)
+- databse server
+- application server
+- AD 
+- router & switches
+- filewalls 

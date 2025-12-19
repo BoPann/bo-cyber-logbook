@@ -12,9 +12,9 @@ tags:
 - check header
 	- does the sender detail addr match the sender mail addr?
 - check body 
-- check source code
+- check source code (there is a lot of information in here)
 - Usually there is link, check the link source
-	- has it been shortened? see: [shortened-url](../../cyber-img/shortened-url.md)
+	- has it been shortened? see: [shortened-url](../atks/shortened-url.md)
 
 ## 2. Description
 
@@ -53,15 +53,15 @@ tags:
 	- https://mxtoolbox.com/SuperTool.aspx
 	- https://urlscan.io/
 
-- extract link is tedious, here are some tools to help with that (thank god)
+- Extracting link is tedious, here are some tools to help with that (thank god)
 	- https://www.convertcsv.com/url-extractor.htm
 	- https://gchq.github.io/CyberChef/#recipe=Extract_URLs(false,false,false)
 
-- when we have a hash of a file, we can scan it using: 
+- When we have a hash of a file, we can scan it using: 
 	- https://talosintelligence.com/talos_file_reputation
 	- https://www.virustotal.com/gui/home/upload
 
-- sandbox tool
+- Sandbox tool
 	- https://app.any.run/
 	- https://hybrid-analysis.com/
 

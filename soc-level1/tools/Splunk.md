@@ -34,6 +34,7 @@ Almost the first thing we want to look into is the **Fields** pane (like many ot
 
 - Also similar to linux, we can use `head`, `tail`, `sort` to organize the result
 - ![](../imgs/head-command-min.png)
+- ![sort command](../imgs/sort-command.png)
 - `top` returns the top result (also count them)
 - ![](../imgs/top-command-min.png)
 

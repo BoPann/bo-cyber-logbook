@@ -1,23 +1,16 @@
 # Network Analysis
 
-
-Components
-user work station (end point)
-databse server
-application server
-AD 
-router & switches
-filewalls 
+## Overview
+- [Network Discovery Detection](network-discovery.md)
+- [Data Exfiltration Detection](data-exfiltration-detection.md)
+- [MITM Detection](mitm-detection.md)
 
 
-Logs 
-host-centric logs 
-network-centric logs 
-
-
-network perimeter - the border control
+Network perimeter - the border control
 - Firewalls: Gatekeepers that filter traffic between internal and external networks.
 - Routers/Gateways: Devices that route traffic and enforce access rules.
 - Demilitarized Zone (DMZ): A buffer network segment where public-facing servers (web, mail, VPN) are placed.
 - Remote Access Gateways / VPNs: Secure entry points for employees working outside the office.
 
+## Extended Readings
+- [Bo Cyber Logbook - Log Analysis](log-analysis.md)

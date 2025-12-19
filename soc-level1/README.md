@@ -29,7 +29,8 @@ tags:
 	- [Wireshark](tools/wireshark.md)
 
 - Analysis 
-	- [Phishing](phishing-analysis/phishing.md)
+	- [Phishing Analysis](phishing-analysis/phishing.md)
+	- [Network Analysis](network-analysis/network-analysis.md)
 
 * Monitoring
 	* Network

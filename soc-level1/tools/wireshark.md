@@ -13,6 +13,7 @@
  - merge file: ffile -> merge 
  - right click on packet allows us to apply fiter 
  - we can also color the packet as well 
+ - `_ws.col.colName contains` allows us to directly search inside a column
  - find packet 
 	 - go -> go to pkt (simple search)
 	 - edit -> find pkt (a more complacated search, allows us to search inside packets, covering packet list, packet details and packet bytes)
@@ -48,3 +49,4 @@
 
 ## Limitation 
 Wireshark is not an Intrusion Detection System (IDS). It only allows analysts to discover and investigate the packets in depth. It also doesn't modify packets; it reads them. Hence, detecting any anomaly or network problem highly relies on the analyst's knowledge and investigation skills.
+
