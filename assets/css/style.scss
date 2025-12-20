@@ -10,77 +10,75 @@ body {
   color: #24292e;
 }
 
-/* 2. Header and Typography */
+/* 2. Clean Typography */
 h1, h2, h3 {
   color: #1b1f23;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 8px;
   margin-top: 1.5em;
 }
 
 blockquote {
-  background: rgba(255, 255, 255, 0.3);
-  border-left: 5px solid #6a737d;
-  padding: 15px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-left: 4px solid #444;
+  padding: 10px 20px;
   font-style: italic;
-  border-radius: 0 8px 8px 0;
   margin: 20px 0;
 }
 
-/* 3. The "Clean Card" List Style (No Bullets) */
+/* 3. The "Animated List" - No Boxes */
 ul {
-  list-style-type: none !important; /* Forces bullets to disappear */
-  padding-left: 0 !important;      /* Removes the indent where bullets used to sit */
-  margin-top: 20px;
+  list-style-type: none !important; 
+  padding-left: 0 !important;
 }
 
 ul li {
-  background-color: rgba(255, 255, 255, 0.5); 
-  margin-bottom: 12px;
-  padding: 16px 20px;
-  border-radius: 8px;
-  border-left: 6px solid #24292e; /* The 'Logbook' stripe */
+  margin-bottom: 15px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Subtle divider line */
   
-  /* The Animation you liked */
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  /* The Animation */
+  transition: all 0.3s ease-in-out;
   
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Add a clean icon instead of a bullet */
+/* Icon indicator instead of a bullet */
 ul li::before {
   content: "→"; 
-  margin-right: 15px;
+  margin-right: 12px;
+  color: #444;
   font-weight: bold;
-  color: #24292e;
+  transition: margin-right 0.3s ease;
 }
 
-/* Hover Effect */
+/* Hover Effect: Slide text and darken the divider */
 ul li:hover {
-  transform: translateX(12px); /* Moves card to the right */
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transform: translateX(10px);
+  border-bottom: 1px solid #24292e;
 }
 
-/* Link Styling - making the text clear */
+ul li:hover::before {
+  margin-right: 20px; /* Expands the space of the arrow on hover */
+}
+
+/* Link Styling */
 ul li a {
   text-decoration: none;
   color: #0366d6;
-  font-weight: 600;
-  font-size: 1.05em;
+  font-weight: 500;
+  font-size: 1.1em;
 }
 
 ul li a:hover {
-  color: #005cc5;
+  color: #000;
 }
 
-/* 4. Image Styling */
+/* 4. Footer Image */
 img {
   display: block;
-  margin: 30px auto;
-  border-radius: 12px;
-  max-width: 90%;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin: 40px auto;
+  border-radius: 8px;
+  max-width: 100%;
 }
