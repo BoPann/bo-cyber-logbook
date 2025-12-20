@@ -7,6 +7,8 @@ layout: default
 
 # Bo Pan
 
+<p align="center"> <img src="cyber-img/cockpit.png" width="80%" style="border-radius: 15px;"> </p>
+
 ## About Me
 
 ### 1. Motivation
