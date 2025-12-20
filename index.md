@@ -5,6 +5,10 @@ tags:
 ---
 # 1. README
 Hi there! Welcome to Bo Cyber Logbook!
+
+<p align="center">
+  <img src="cyber-img/cockpit.png" width="80%" style="border-radius: 15px;">
+</p>
 ## 1. Motivation 
 When I was training to be a pilot, every lesson ended with a ritual: my instructor and I would sit down and debrief. We would talk about what went well, what almost went well, and what absolutely did not go well. Then he’d sign my logbook with all the details including flight time, how many takeoffs and landings I didn’t mess up, how long we stayed in the air, which airports we bothered.
 
@@ -33,4 +37,6 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 >last modified: 2025-12-19
 
 
-![cockpit](cyber-img/cockpit.png)
+<p align="center">
+  <img src="cyber-img/cockpit.png" width="80%" style="border-radius: 15px;">
+</p>
