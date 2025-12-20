@@ -6,7 +6,7 @@ tags:
 # 1. README
 Hi there! Welcome to Bo Cyber Logbook!
 
-<p align="center">
+<p align="right">
   <img src="cyber-img/cockpit.png" width="80%" style="border-radius: 15px;">
 </p>
 ## 1. Motivation 
@@ -35,8 +35,3 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 - [Pi-Hole Set Up Walkthrough](sinkhole/pi-hole-set-up/README.md)
 
 >last modified: 2025-12-19
-
-
-<p align="center">
-  <img src="cyber-img/cockpit.png" width="80%" style="border-radius: 15px;">
-</p>
