@@ -6,7 +6,7 @@ tags:
 ---
 
 # Phishing 🎣
-<p align="center"> <img src="cyber-img/michael-koi-pond" width="80%" style="border-radius: 15px;"> </p>
+<p align="center"> <img src="cyber-img/michael-koi-pond.png" width="80%" style="border-radius: 15px;"> </p>
 
 ## 1. Overview
 - how sending email work - [how-email-works](how-email-works.md)
