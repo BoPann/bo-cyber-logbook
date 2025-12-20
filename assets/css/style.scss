@@ -5,3 +5,41 @@
 body {
   background-color: #cfcac6;
 }
+
+/* Create a card-like feel for your log sections */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+  padding: 15px;
+  border-left: 5px solid #24292e;
+  border-radius: 4px;
+}
+
+ul li a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #586069;
+  border-left: 4px solid #d1d5da;
+  padding-left: 15px;
+  background: rgba(255, 255, 255, 0.2);
+}
