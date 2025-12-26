@@ -3,7 +3,7 @@ My journey saving the Christmas of Wareville!
 
 This has been a fun journey with TryHackMe. I learned something new every day —sometimes a brand-new concept, sometimes realizing I _definitely_ didn’t know something as well as I thought I did. Overall, it was a great way to explore new cybersecurity topics while reinforcing the basics. Most importantly... Merry Soc-Mas!!!
 
-<p align="center"> <img src="../cyber-img/cert-aoc.png" width="80%" style="border-radius: 15px;"> </p>
+<p align="center"> <img src="../cyber-img/cert-aoc.png" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 0 20px rgba(0,255,255,0.2); border: 1px solid rgba(255,255,255,0.1);"> </p> 
 
 
 ## Index
