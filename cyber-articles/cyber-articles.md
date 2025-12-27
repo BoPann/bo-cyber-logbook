@@ -1,3 +1,8 @@
+---
+creation date: 2025-12-26 13:23
+modified: 2025-12-27 12:15
+tags:
+---
 ## Cyber Articles 
 Cybersecurity is an ever-evolving field—every day there’s something new. Somewhere in the world, a new attack happens and suddenly a small business is losing a _not-so-small_ fortune. Creative bad actors find a single exploit and quietly walk through the front door, often without anyone noticing until it’s far too late.
 
@@ -6,3 +11,7 @@ While technical skills are critical for staying safe, keeping up with the latest
 ## Index
 - [Are you sure about it? 🤔 - Masquerading](masquerading-malware.md)
 - [Phishing 🎣](phishing.md)
+
+>last modified: 2025-12-27 12:15
+>
+>Have questions? Shoot me a text >>> [Linkedin](https://www.linkedin.com/in/bopann/)

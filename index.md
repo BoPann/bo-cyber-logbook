@@ -25,7 +25,7 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 ---
 ## 2. My Logs
 
-### 2.1 Things I am working on
+### 2.1 Main Quest
 * [My SOC Analyst Logbook](soc-level1/README.md)
 * [Help Desk Logbook](tcm-practical-help-desk/README.md)
 * [Cyber Articles](cyber-articles/cyber-articles.md)

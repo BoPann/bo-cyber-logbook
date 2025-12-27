@@ -18,8 +18,8 @@
 - Recommended Remediation Actions:
 - List of Attack Indicators:
 
-### 1.3 UKC
-This is about how an attacker break in (attack vector) using [Unified Killed Chain](framework/unified-kill-chain.md) to provide a linear view. This is helpful to visualize the "story" in high level view.
+### 1.3 Cyber Kill Chain
+This is about how an attacker break in (attack vector) using  [Cyber Kills Chain](framework/cyber-kill-chain.md) to provide a linear view. This is helpful to visualize the "story" in high level view.
 
 ### 1.4 MITRE ATT&CK
 Similar to UKC, [MITRE](framework/MITRE.md) ATT&CK provides the attacker vector. But ATT&CK dives in more detailed tactics. This is helpful when it comes to forensics. 

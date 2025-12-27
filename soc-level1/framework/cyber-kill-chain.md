@@ -14,7 +14,7 @@ tags:
 Knowing this help the defenders predict the nest step of the attackers, and it allows them to better defend the system. If we as defenders see a C2 beacon (Command & Control), we shouldn't go back and try to find the Delivery (still important during invistigation). Instead, we should watch out for data exfiltration which might the the attackers' objectives.  
 
 ## Description
-- [Reconnasissance](../atks/reconnasissance.md)
+- [Reconnasissance](../atks/reconnaissance.md)
 	- Gather info 
 	- google dorking (or any dorking)
 - Weaponization

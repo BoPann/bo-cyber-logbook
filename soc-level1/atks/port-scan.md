@@ -4,7 +4,7 @@ modified: 2025-12-14 13:20
 tags:
 ---
 # Port Scan 
-Port scanning provides a landscape of a network during the [reconnasissance](reconnasissance.md) phase. It reveals what services are running and what devices are present. Having unnecessary ports open increases the attack surface, which can then be exploited by an attacker. 
+Port scanning provides a landscape of a network during the [reconnaissance](reconnaissance.md) phase. It reveals what services are running and what devices are present. Having unnecessary ports open increases the attack surface, which can then be exploited by an attacker. 
 
 For SOC analysts, it’s important to:
 1. Perform port scanning to understand the network landscape

@@ -33,8 +33,8 @@ Defense does not need to be perfect.
 It just needs to be _smart_
 
 Tool Mentioned:
-- https://canarytokens.org/nest/
-- https://tracebit.com/
+- [https://canarytokens.org/nest/](https://canarytokens.org/nest/)
+- [https://tracebit.com/](https://tracebit.com/)
 > Fun tool! Will spend some time play around with them! More to come!
 
 Some other notes:

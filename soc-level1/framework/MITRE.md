@@ -39,3 +39,5 @@ MITRE gives us a shared playbook so we can understand, detect, and respond to th
 - D3FEND - outlines the defensive techniques that prevent, block, or disrupt those attacks. (Defense/Prevention)
 
 ## 4. Extended Readings
+- [Bo Cyber Logbook - Cyber Kill Chain](cyber-kill-chain.md)
+- [Bo Cyber Logbook - Pyramid of Pain](Pyramid-of-Pain.md)
