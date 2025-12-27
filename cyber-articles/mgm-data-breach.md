@@ -9,22 +9,23 @@ tags:
 source: [https://netwrix.com/en/resources/blog/mgm-cyber-attack/](https://netwrix.com/en/resources/blog/mgm-cyber-attack/)
 
 ## Articles
-### Reconnaissance
+### 1. Reconnaissance
 -  Scattered Spider members researched MGM employees on LinkedIn, gathering information about their roles and identities.
 
-### Social Engineering
+### 2. Social Engineering
 - Using the gathered information, the attackers chose an MGM employee to impersonate.
 -  The hackers called MGM’s IT help desk, posing as the employee and successfully convinced the help desk into providing them with login credentials.
 
-### Credential Access 
+### 3. Credential Access 
 - Using the obtained credentials, Scattered Spider gained administrator privileges to MGM’s Okta and Azure tenant environments.
-### Persistence
+
+### 4. Persistence
 - Once inside, the attackers registered their own MFA devices to keep access.
 
-### Lateral Movement
+### 5. Lateral Movement
 - The attackers used their high-level access to move laterally within MGM’s systems.
 
-### Impact & Objectives
+### 6. Impact & Objectives
 - They shut down hotel digital keys, slot machines, and encrypted servers for ransom.
 
 
