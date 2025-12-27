@@ -1,6 +1,6 @@
 ---
 creation date: 2025-12-09 19:18
-modified: 2025-12-27 12:26
+modified: 2025-12-27 12:31
 tags:
 layout: default
 ---
@@ -37,6 +37,9 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 * [Advent of Cyber Logbook 🎄](advent-of-cyber-2025/README.md)
 
 ---
-- *last modified: 2025-12-27 12:26
-- *Have questions? Shoot me a text >>> [Linkedin](https://www.linkedin.com/in/bopann/)
+*Last Modified: 2025-12-27 \
+Have Questions? Shoot me a text >> [Linkedin](https://www.linkedin.com/in/bopann/)
+
+
+
 
