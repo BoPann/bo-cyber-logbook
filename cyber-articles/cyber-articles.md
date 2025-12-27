@@ -12,6 +12,8 @@ While technical skills are critical for staying safe, keeping up with the latest
 - [Are you sure about it? 🤔 - Masquerading](masquerading-malware.md)
 - [Phishing 🎣](phishing.md)
 
->last modified: 2025-12-27 12:15
+
+---
+>last modified: 2025-12-27
 >
->Have questions? Shoot me a text >>> [Linkedin](https://www.linkedin.com/in/bopann/)
+>Have questions? Shoot me a text >> [Linkedin](https://www.linkedin.com/in/bopann/)

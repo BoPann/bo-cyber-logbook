@@ -1,6 +1,6 @@
 ---
 creation date: 2025-12-09 19:18
-modified: 2025-12-19 12:59
+modified: 2025-12-27 12:26
 tags:
 layout: default
 ---
@@ -11,7 +11,6 @@ layout: default
 
 ## About Me
 
-### 1. Motivation
 When I was training to be a pilot, every lesson ended with a ritual: my instructor and I would sit down and debrief. We would talk about what went well, what almost went well, and what absolutely did not go well. Then he’d sign my logbook with all the details including flight time, how many takeoffs and landings I didn’t mess up, how long we stayed in the air, which airports we bothered.
 
 And I’m not gonna lie… I used to stare at that logbook like it was a scrapbook of my best moments. It felt like, “Yep, I survived _that_ lesson. Look at me go.” 
@@ -22,7 +21,6 @@ Those entries (plus the “please stop doing that” notes) actually helped me a
 So that’s why I’m doing this cyber log. Writing these entries helps me keep track of what I’ve learned, connect the dots, and laugh at my own mistakes. Plus, it’s a cool way to connect with you -- someone who’s into the same cybersecurity madness.
 And who knows? Maybe this will help others who are on the same journey too. 😊
 
----
 ## 2. My Logs
 
 ### 2.1 Main Quest
@@ -39,4 +37,6 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 * [Advent of Cyber Logbook 🎄](advent-of-cyber-2025/README.md)
 
 ---
-*last modified: 2025-12-19*
+- *last modified: 2025-12-27 12:26
+- *Have questions? Shoot me a text >>> [Linkedin](https://www.linkedin.com/in/bopann/)
+
