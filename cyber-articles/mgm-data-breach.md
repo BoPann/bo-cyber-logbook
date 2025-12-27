@@ -8,7 +8,12 @@ tags:
 # MGM Data Breach
 source: [https://netwrix.com/en/resources/blog/mgm-cyber-attack/](https://netwrix.com/en/resources/blog/mgm-cyber-attack/)
 
-## Articles
+<p align="center"> <img src="../cyber-img/dwight-casino.png" style="width: 80%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 15px;"> </p>
+It took less than 10 minutes on a LinkedIn profile and a single phone call to the helpdesk to bring a $14 billion gambling empire to its knees. No zero-days, no complex coding—just a voice on the line and a password reset that changes everything. 
+
+So how did that happen???
+
+## Analysis with Cyber Kill Chain
 ### 1. Reconnaissance
 -  Scattered Spider members researched MGM employees on LinkedIn, gathering information about their roles and identities.
 
