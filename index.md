@@ -37,7 +37,7 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 * [Advent of Cyber Logbook 🎄](advent-of-cyber-2025/README.md)
 
 ---
-<div style="color: #A9A9A9; font-style: italic; font-size: 0.9em; text-align: left; margin-top: 50px;">
+<div style="color: #55555; font-style: italic; font-size: 0.9em; text-align: left; margin-top: 50px;">
 Last Modified: 2025-12-27<br>
 Have Questions? Shoot me a text >> <a href="https://www.linkedin.com/in/bopann/" style="color: #A9A9A9; text-decoration: underline;">Linkedin</a>
 </div>
