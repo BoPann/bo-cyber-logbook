@@ -1,4 +1,7 @@
 # Snort
+
+<p align="center"> <img src="../../cyber-img/dwight-pig.png" style="width: 80%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 15px;"> </p>
+
 Snort is an open-source, rule-based Network Intrusion Detection and Prevention System (NIDS/NIPS).
 
 ## 1. Overview

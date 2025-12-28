@@ -1,22 +1,37 @@
-# Linux Monitoring
+---
+creation date: 2025-12-26 11:34
+modified: 2025-12-28 14:12
+tags:
+  - cyber/dfd
+  - cyber/networking
+  - cyber/sys
+---
+# Linux Security Monitoring
 
-### ssh
+<p align="center"> <img src="../../cyber-img/chandler-dance.png" style="width: 80%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 15px;"> </p>
+
+## 1. Overview
+Look, Linux is the "Monica" of operating systems—it's organized, it's efficient, and it's basically running the entire apartment... I mean, the **Internet**. Between servers, embedded systems, and "The Cloud" (which, let's be honest, is just someone else's Linux computer in a fancy sweater), it’s everywhere!
+
+But because it’s so popular, it’s also a total magnet for trouble. It’s like being the only person in the group with a car—everyone wants a piece of you, and usually, they’re going to leave a mess in the backseat. It is officially at the top of every hacker's "Must-Visit" list. To do this, we need 2 important skills. 1. **Process Tree Analysis** 2. **Linux Log Analysis**
+
+### 1.1 Skills - Process Tree Analysis
+- Default Linux logs are terrible for process tree analysis. So this only work on `auditd`
+- Flow - Look for a suspecious process id's(pid) parent process id (ppid) and keep doing that until a complete tree is built. 
+- Example
+	- Continuing the example, we begin by locating the suspicious command in the logs with `ausearch -i -x whoami`. Next, we walk up the process tree using the `--pid` option until you reach PID 1, the OS process. The tree eventually shows that `whoami` was launched by a Python web application (`/opt/mywebapp/app.py`).
+
+
+### 1.2 Skills - Linux Log Analysis
+- For system level analysis see [Bo Cyber Logbook - Linux Log Analysis](linux-log-analysis.md)
+- For using command line for analysis, see [Bo Cyber Logbook - Log Analysis](../network-analysis/log-analysis.md)
+
+
+## 2. Description
+### 2.1 SOC Indicators - SSH 
 check `/var/log/auth.log`. There might be indicator for brute-force attack such as multiple failed log in attempt from the same source. 
 
-process tree analysis
-look for a suspecious process id's(pid) parent process id (ppid) and keep doing that until a complete tree is built. 
-example
-Continuing the example, you begin by locating the suspicious command in the logs with `ausearch -i -x whoami`. Next, you walk up the process tree using the `--pid` option until you reach PID 1, the OS process. The tree eventually shows that `whoami` was launched by a Python web application (`/opt/mywebapp/app.py`).
-
-
-Auditd (Audit Daemon) is a built-in auditing solution often used by the SOC team for runtime monitoring.
-
-We can view the generated logs in real time in `/var/log/audit/audit.log`, but it is easier to use the `ausearch` command, as it formats the output for better readability and supports filtering options.
-
-Similar to `sysmon`, linux has similar log analysis tool. 
-**Linux Audit Framework (`auditd`)** captures events at the kernel level. When a user runs a command, the kernel sees it as a "System Call" (`SYSCALL`) and records several related records linked by a unique ID.
-
-### Attacker's first foothold
+### 2.2 SOC Indicators - Attacker's first foothold
 
 | Discovery Goal                | Typical Commands                                                       |
 | ----------------------------- | ---------------------------------------------------------------------- |
@@ -25,8 +40,7 @@ Similar to `sysmon`, linux has similar log analysis tool.
 | Process and Network Discovery | `ps aux`, `top`, `ip a`, `ip r`, `arp -a`, `ss -tnlp`, `netstat -tnlp` |
 | Cloud or Sandbox Discovery    | `systemd-detect-virt`, `lsmod`, `uptime`, `pgrep "<edr-or-sandbox>"`   |
 
-
-### Then they will want to move laterally or steal data
+### 2.3 SOC Indicators - Then they will want to move laterally or steal data
 
 | Attack Objectives                                     | Typical Commands                                                       |
 | ----------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -34,5 +48,21 @@ Similar to `sysmon`, linux has similar log analysis tool.
 | Identify how suitable the system is for crypto mining | `cat /proc/cpuinfo`, `lscpu \| grep Model`, `free -m`, `top`, `htop`   |
 | Scan the internal network for other future victims    | `ping <ip>`, `for ip in 192.168.1.{1..254}; do nc -w 1 $ip 22 done`    |
 
-Botnet
-"Hack and Forget" attacks are usually automated and performed at scale by botnets
+### 2.4 SOC Indicators - Botnet
+"Hack and Forget" attacks are usually automated and performed at scale by botnets. The attacker doesn't care _who_ the victim is. They use automated scripts to scan the entire internet for a specific vulnerability. They hack, drops the payload, and forget about it. They don't want your data; they just want your **electricity and CPU power**.
+
+We check `top` or `Auditd`. If we find a process named `[kworker]` (trying to look like a Linux kernel process) using 90% CPU.
+
+
+## Extended Readings: 
+- [Bo Cyber Logbook - Web Security Monitoring](../web-monitoring/web-monitoring.md)
+- [Bo Cyber Logbook - Windows Security Monitoring](../win-monitoring/windows-monitoring.md)
+- [Bo Cyber Logbook - Network Analysis](../network-analysis/network-analysis.md)
+- [Bo Cyber Logbook - Phishing Analysis](../phishing-analysis/phishing.md)
+
+
+---
+Last Modified: 2025-12-28 \
+Have Questions? Shoot me a text >> [Linkedin](https://www.linkedin.com/in/bopann/)
+
+

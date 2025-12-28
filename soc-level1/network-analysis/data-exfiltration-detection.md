@@ -45,6 +45,6 @@ While Phoebe would kindly return Ross' *The Science Boy* and apologize for what 
 - indicators:
 	- high entropy, base64 
 	- huge payload (normal ping ~74 bytes)
-	- type 8 echo | type 0 reply
+	- type 8 echo, type 0 reply
 
 
