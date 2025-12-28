@@ -32,6 +32,7 @@ With right technique, we can apply them to differnt scenerios:
 Here are tools we need to analyze traffics
 - [Bo Cyber Logbook - Log Analysis](log-analysis.md)
 - [Bo Cyber Logbook - Wireshark](../tools/wireshark.md)
+- [Bo Cyber Logbook - Snort](../tools/snort.md)
 ---
 Last Modified: 2025-12-27  \
 Have Questions? Shoot me a text >> [Linkedin](https://www.linkedin.com/in/bopann/)

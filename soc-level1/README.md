@@ -21,6 +21,7 @@ tags:
 	- [Splunk](tools/Splunk.md)
 	- [Kibana](tools/Kibana.md)
 	- [Wireshark](tools/wireshark.md)
+	- [Snort](tools/snort.md)
 
 - Analysis 
 	- [Phishing Analysis](phishing-analysis/phishing.md)
