@@ -25,6 +25,7 @@ But because it’s so popular, it’s also a total magnet for trouble. It’s li
 ### 1.2 Skills - Linux Log Analysis
 - For system level analysis see [Bo Cyber Logbook - Linux Log Analysis](linux-log-analysis.md)
 - For using command line for analysis, see [Bo Cyber Logbook - Log Analysis](../network-analysis/log-analysis.md)
+- For undersntaning linux auditd log, see [Bo Cyber Logbook - Auditd log](linux-auditd.md)
 
 
 ## 2. Description
@@ -48,7 +49,17 @@ check `/var/log/auth.log`. There might be indicator for brute-force attack such 
 | Identify how suitable the system is for crypto mining | `cat /proc/cpuinfo`, `lscpu \| grep Model`, `free -m`, `top`, `htop`   |
 | Scan the internal network for other future victims    | `ping <ip>`, `for ip in 192.168.1.{1..254}; do nc -w 1 $ip 22 done`    |
 
-### 2.4 SOC Indicators - Botnet
+
+### 2.4 SOC Indicators - Persistence
+
+| Attack Objectives                  | Typical Commands                                                                                                                                         |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Monitor changes in cron job files  | `/etc/crontab`, `/etc/cron.d*`, `/var/spool/cron/*`, `/var/spool/crontab/*`                                                                              |
+| Monitor changes in systemd folders | `/lib/systemd/system/*`, `/etc/systemd/system/*`, and [less common](https://manpages.ubuntu.com/manpages/questing/en/man5/systemd.unit.5.html) locations |
+| Monitor related processes such as  | `nano /etc/crontab`, `crontab -e`, `systemctl start\|enable <service>`                                                                                   |
+| Add Users                          | `useradd`, `usermod`                                                                                                                                     |
+
+### 2.5 SOC Indicators - Botnet
 "Hack and Forget" attacks are usually automated and performed at scale by botnets. The attacker doesn't care _who_ the victim is. They use automated scripts to scan the entire internet for a specific vulnerability. They hack, drops the payload, and forget about it. They don't want your data; they just want your **electricity and CPU power**.
 
 We check `top` or `Auditd`. If we find a process named `[kworker]` (trying to look like a Linux kernel process) using 90% CPU.

@@ -19,7 +19,7 @@ Out of the box, Three Major Linux Logs:
 - `~/.bash_history`: command history `history`
 
 
-## Auditd - User Activity Log
+## Auditd - User Activity Log - [Bo Cyber Logbook - Linux Auditd Log](linux-auditd.md)
 Like mentioned, user activty dese not get logged out of the box. In that case, we need a special tool called `auditd` (similar to sysmon in Windows) This is the standard tool for tracking **Runtime Events**. It monitors "System Calls" (when a program asks the kernel to do something).
 
 ### How does it work? 
@@ -41,5 +41,6 @@ We can view the generated logs in real time in `/var/log/audit/audit.log`, but 
 
 
 ## Entended Readings
+- [Bo Cyber Logbook - Linux Auditd Log](linux-auditd.md)
 - [Bo Cyber Logbook - Log Analysis](my-cyber-logbook/soc-level1/network-analysis/log-analysis.md)
 - [Bo Cyber Logbook - Snort](../tools/snort.md)  << unlike `auditd`log endpoint activity, Snot focus on network log.

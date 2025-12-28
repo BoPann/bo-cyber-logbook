@@ -1,5 +1,13 @@
-
 ---
+creation date: 2025-12-26 12:50
+modified: 2025-12-28 15:47
+tags:
+  - cyber/dfd
+  - cyber/linux
+---
+
+# Auditd 
+Linux Audit Log. Here docs the important fields of auditds. It is important to know this fields in order to read the auditd log. 
 
 ### 1. `type=PROCTITLE`
 
@@ -74,9 +82,8 @@ This is the most "data-heavy" part of the log. It explains who did it and what t
     
 - **`key=exec`**: This is a custom label. Whoever configured the audit rules on this machine labeled all execution events with the word "exec" to make them easier to search.
     
-
 ---
+Last Modified: 2025-12-28  \
+Have Questions? Shoot me a text >> [Linkedin](https://www.linkedin.com/in/bopann/)
 
-### Summary of the "Story"
 
-The user **ubuntu**, working from the directory **`/opt/trypingme`**, used a **web service or script** to force the system to run a shell command. They bypassed the intended use (`ping`) and successfully forced the server to **display the source code** of the application (`cat main.py`).
