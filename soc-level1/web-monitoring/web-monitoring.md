@@ -7,6 +7,10 @@ tags:
 ---
 # Web Security Monitoring
 
+<p align="center"> <img src="../../cyber-img/chandler-dance.png" style="width: 80%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 15px;"> </p>
+
+Publicly available? Check. A pretty interface that basically says "Welcome, please break me"? Check. Honestly, what could be a better target than a web application? It’s like leaving your front door wide open, putting a "Free Pizza" sign on it, and being surprised when a thousand hackers show up for a slice!
+
 We will spend 90% of our time looking at these two things:
 
 - **WAF (Web Application Firewall) Logs:** These generate alerts like "SQL Injection Attempt Blocked." We need to verify if the block was effective or if the attacker is bypassing it.
