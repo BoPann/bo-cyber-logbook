@@ -28,3 +28,7 @@ th,
 td {
   background-color: transparent !important;
 }
+
+table tr:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.02); // Very subtle shading for readability
+}
