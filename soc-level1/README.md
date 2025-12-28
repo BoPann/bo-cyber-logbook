@@ -27,7 +27,6 @@ tags:
 	- [Network Analysis](network-analysis/network-analysis.md)
 
 * Monitoring
-	* Network
 	* Web Security
 	* Windows Security
 	* Linux Security
