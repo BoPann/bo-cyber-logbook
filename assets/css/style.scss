@@ -23,12 +23,16 @@ h1, h2, h3, h4, .post-title {
   letter-spacing: -0.02em; // Montserrat looks great slightly tightened in headings
 }
 
-table, 
-th, 
-td {
-  background-color: transparent !important;
+/* Overriding Primer Theme Table Styles */
+.markdown-body table, 
+.markdown-body table tr, 
+.markdown-body table td, 
+.markdown-body table th {
+  background-color: #cfcac6 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-table tr:nth-child(2n) {
-  background-color: rgba(0, 0, 0, 0.02); // Very subtle shading for readability
+/* This removes the "Zebra Striping" (alternating grey/white rows) */
+.markdown-body table tr:nth-child(2n) {
+  background-color: #cfcac6 !important;
 }
