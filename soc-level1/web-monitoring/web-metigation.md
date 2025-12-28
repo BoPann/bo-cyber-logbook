@@ -5,6 +5,12 @@ tags:
 ---
 # Metigation
 
+## Overview 
+There are few mechinism in place to ensure the security of a web app. 
+- Security Header
+- WAFs
+- CDN
+
 ## 1. Security Header
 - Content-Security-Policy (CSP)
 - Strict-Transport-Security (HSTS)
