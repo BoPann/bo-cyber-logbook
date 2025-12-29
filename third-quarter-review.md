@@ -6,7 +6,7 @@ I learned how to analyze logs using different tools, including CLI utilities, Li
 For example, when a system slows down, I would first check the system logs and notice a process consuming over 90% of the CPU. I would then investigate the process ID to see what it was doing—only to find that it was connecting to an external IP. At that point, it becomes clear that we’re dealing with a hack-and-forget attack, where an attacker is using the machine for unauthorized computing power.
 
 
-initial access
+initial access 
 discovery
 previlege escalation
 lateral movement
@@ -15,3 +15,8 @@ defense evasion
 persistence
 exfiltration
 
+
+- [Network Analysis](network-analysis/network-analysis.md)
+* [Web Security Monitoring](web-monitoring/web-monitoring.md)
+* [Linux Security Monitoring](linux-monitoring/linux-monitoring.md)
+* [Windows Security Monitoring](win-monitoring/windows-monitoring.md)

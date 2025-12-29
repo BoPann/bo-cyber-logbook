@@ -10,23 +10,23 @@ when investigating windows log, it is important that we look for the right log a
 
 ## 2.1 Windows Event Log
 
-| **Event ID** | **Category** | **Meaning**                       | **SOC Analyst Perspective**                                         |
-| ------------ | ------------ | --------------------------------- | ------------------------------------------------------------------- |
-| **4624**     | Logon        | Successful Logon                  | Look at the **Logon Type** to see if it's remote (10) or local (2). |
-| **4625**     | Logon        | Failed Logon                      | **Brute Force**,  **Password Spraying**, **DDoS**                   |
-| **4688**     | Process      | New Process Created               | Essential for seeing what programs were opened.                     |
-| **4720**     | User Mgmt    | User created                      | Red flag if created outside of a Helpdesk ticket window.            |
-| **4722**     | User Mgmt    | User Enabled                      |                                                                     |
-| **4725**     | User Mgmt    | User Disabled                     |                                                                     |
-| **4738**     | User Mgmt    | User Changed                      |                                                                     |
-| **4726**     | User Mgmt    | User Deleted                      |                                                                     |
-| **4723**     | User Mgmt    | Password Changed                  |                                                                     |
-| **4724**     | User Mgmt    | Password Reset                    |                                                                     |
-| **4732**     | Group Mgmt   | User added to Group               | **Privilege Escalation**                                            |
-| **4733**     | Group Mgmt   | User removed from Group           |                                                                     |
-| **4798**     | Group Mgmt   | User's local group was enumerated |                                                                     |
-| 4697         |              | service creation                  | **Persistence**                                                     |
-| 4698         |              | scehduled task creation           | **Persistence**                                                     |
+| **Event ID** | **Category** | **Meaning**                       | **SOC Analyst Perspective**                                                            |
+| ------------ | ------------ | --------------------------------- | -------------------------------------------------------------------------------------- |
+| **4624**     | Logon        | Successful Logon                  | Look at the **Logon Type** to see if it's remote (10) or local (2). **Initial Access** |
+| **4625**     | Logon        | Failed Logon                      | **Brute Force**,  **Password Spraying**, **DDoS**, **Initial Access**                  |
+| **4688**     | Process      | New Process Created               | Essential for seeing what programs were opened. **Initial Access**, **Discovery**      |
+| **4720**     | User Mgmt    | User created                      | Red flag if created outside of a Helpdesk ticket window. **Persistence**               |
+| **4722**     | User Mgmt    | User Enabled                      | **Persistence**                                                                        |
+| **4725**     | User Mgmt    | User Disabled                     | **Persistence**                                                                        |
+| **4738**     | User Mgmt    | User Changed                      | **Persistence**                                                                        |
+| **4726**     | User Mgmt    | User Deleted                      | **Persistence**                                                                        |
+| **4723**     | User Mgmt    | Password Changed                  | **Persistence**                                                                        |
+| **4724**     | User Mgmt    | Password Reset                    | **Persistence**                                                                        |
+| **4732**     | Group Mgmt   | User added to Group               | **Privilege Escalation**                                                               |
+| **4733**     | Group Mgmt   | User removed from Group           | **Privilege Escalation**                                                               |
+| **4798**     | Group Mgmt   | User's local group was enumerated | **Discover**                                                                           |
+| 4697         |              | service creation                  | **Persistence**                                                                        |
+| 4698         |              | scehduled task creation           | **Persistence**                                                                        |
 
 
 ## 2.2 Sysmon
