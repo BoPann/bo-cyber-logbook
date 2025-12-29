@@ -11,7 +11,7 @@ Here, we walk through the different stages of the Cyber Kill Chain and show how 
 
 For details in windows logs, see [Bo Cyber Logbook - Windows Logs](windows-logs.md)
 
-## 2.1 Initial Access
+## 2.1 Indicators - Initial Access
 **Instant Attacks:** Research shows that an exposed RDP port is usually discovered by automated botnets and hit with brute-force attempts within **one minute** of going online.
 ### Indicators - Remote Logon
 - RDP (Logon Type 10)

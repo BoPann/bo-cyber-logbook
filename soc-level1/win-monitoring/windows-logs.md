@@ -25,8 +25,8 @@ when investigating windows log, it is important that we look for the right log a
 | **4732**     | Group Mgmt   | User added to Group               | **Privilege Escalation**                                                               |
 | **4733**     | Group Mgmt   | User removed from Group           | **Privilege Escalation**                                                               |
 | **4798**     | Group Mgmt   | User's local group was enumerated | **Discover**                                                                           |
-| 4697         |              | service creation                  | **Persistence**                                                                        |
-| 4698         |              | scehduled task creation           | **Persistence**                                                                        |
+| **4697**     |              | service creation                  | **Persistence**                                                                        |
+| **4698**     |              | scehduled task creation           | **Persistence**                                                                        |
 
 
 ## 2.2 Sysmon
