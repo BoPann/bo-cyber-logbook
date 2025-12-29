@@ -7,6 +7,7 @@ tags:
 > Hello! Welcome to my journey taking SAL1 from TryHackMe :)
 
 - [My Mid Way Review](../mid-review.md) (yoohoo! half way through!)
+- [My Quarter 3 Review](../two-thrid-review.md) 
 
 ## Technical Skills
 - Framework

@@ -6,21 +6,20 @@ tags:
   - cyber/sys
 ---
 # Windows Security Monitoring
-## Overview
+## 1. Overview
 Here, we walk through the different stages of the Cyber Kill Chain and show how to investigate each stage using indicators.
 
 For details in windows logs, see [Bo Cyber Logbook - Windows Logs](windows-logs.md)
 
-## Initial Access
-RDP
+## 2.1 Initial Access
 **Instant Attacks:** Research shows that an exposed RDP port is usually discovered by automated botnets and hit with brute-force attempts within **one minute** of going online.
-### Remote Logon
+### Indicators - Remote Logon
 - RDP (Logon Type 10)
 - Network access (type 3)
 - successful logon (eventID 4624)
 - Failed Logon (enentID 4625)
 
-## Phishing and USB
+## 2.2 Indicators - Phishing and USB
 usually involves open files
 
 - Sysmon Event ID 1: Web browser is launched
@@ -39,13 +38,13 @@ usually involves open files
 	- Image: C:\Users\User\Downloads\invoice.pdf.exe 
 	- ParentImage: C:\Windows\Explorer.EXE
 
-## Discovery
+## 2.3 Indicators - Discovery
 The first task to detect a potential Discovery is to find a Discovery command, or better, a sequence of commands run during a short period of time. You will see them as process creation events tracked by Sysmon event ID 1 or as new rows in the PowerShell history file.
 
-## Collection
+## 2.4 Indicators - Collection
 In Collection, threat actors don't just check a system configuration but rather look for specific files and folders such as password, secrect, .pdf, .csv, .temp basically any folder that can store valuable data. 
 
-## Persistence
+## 2.5 Indicators - Persistence
 Once inside, the attack will want to maintain persistence. Ways including C2, creating new users 
 
 #### New Users
