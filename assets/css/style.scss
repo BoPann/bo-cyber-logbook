@@ -51,22 +51,24 @@ body {
   display: table !important;
 }
 
-/* Footer Centering */
-footer, .giscus-comments {
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center;    /* Center horizontally */
-  justify-content: center; 
+/* Target the footer specifically */
+footer {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;    /* Horizontal centering */
+  justify-content: center !important; 
+  width: 100% !important;
+  max-width: 900px;                  /* Matches your content width */
+  margin: 50px auto !important;      /* "auto" centers the block itself */
+  padding: 40px 20px;
   text-align: center;
-  width: 100%;
-  padding: 40px 0;        /* Gives some breathing room at the bottom */
-  margin-top: 50px;       /* Separates content from comments */
 }
 
-/* Ensure the Giscus widget itself expands properly but stays centered */
-.giscus, .giscus-frame {
+/* Ensure the Giscus container inside the footer is also centered */
+.giscus, .giscus-frame, .giscus-comments {
   width: 100% !important;
-  max-width: 900px;       /* Matches your content width */
+  display: flex;
+  justify-content: center;
 }
 
 /* Mobile Responsiveness */
