@@ -5,29 +5,28 @@
 
 $font-family-sans: "Montserrat", sans-serif;
 
-/* Global & Reset */
-.markdown-body body {
+/* Target the actual body tag, not something inside .markdown-body */
+body {
   color: #222;
   margin: 0;
-  background-color: #cfcac6;
+  background-color: #cfcac6 !important; /* Force the background color */
   font-family: $font-family-sans;
-  font-optical-sizing: auto;
-  font-weight: 500; // Regular weight
-  font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
 
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body .post-title {
-  font-family: $font-family-sans;
-  font-weight: 900; // Bold weight for headings
-  letter-spacing: -0.02em; // Montserrat looks great slightly tightened in headings
+/* Apply Montserrat to everything inside the markdown area */
+.markdown-body {
+  font-family: $font-family-sans !important;
+  background-color: transparent !important; /* Let the body color show through */
+
+  h1, h2, h3, h4, .post-title {
+    font-family: $font-family-sans !important;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
 }
 
-/* Overriding Primer Theme Table Styles */
+/* Your table styles are correct, keep them as is */
 .markdown-body table, 
 .markdown-body table tr, 
 .markdown-body table td, 
@@ -36,14 +35,11 @@ $font-family-sans: "Montserrat", sans-serif;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* This removes the "Zebra Striping" (alternating grey/white rows) */
 .markdown-body table tr:nth-child(2n) {
   background-color: #cfcac6 !important;
 }
 
 .markdown-body table {
-  width: 100% !important;        /* This stretches the table to fill the space */
-  display: table !important;     /* Ensures it behaves as a standard table */
-  margin-left: 0 !important;      /* Removes any leftover left-side gaps */
-  margin-right: 0 !important;     /* Removes any leftover right-side gaps */
+  width: 100% !important;
+  display: table !important;
 }
