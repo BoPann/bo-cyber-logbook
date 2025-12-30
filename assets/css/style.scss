@@ -5,21 +5,31 @@
 
 $font-family-sans: "Montserrat", sans-serif;
 
-/* 1. Target the actual body tag */
+/* 1. Target the actual root body tag */
 body {
-  background-color: #cfcac6 !important; /* Forces the grey background */
+  margin: 0;
+  background-color: #cfcac6 !important; /* This sets your grey background */
   font-family: $font-family-sans;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* 2. Style your content div */
+/* 2. Target your content container */
 .markdown-body {
   font-family: $font-family-sans !important;
-  color: #222 !important;
-  background-color: transparent !important; /* Let body color show through */
+  background-color: transparent !important; /* Allows the body color to show through */
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
 
-  h1, h2, h3, h4, .post-title {
+  /* Apply Montserrat to all text elements inside the content */
+  h1, h2, h3, h4, p, li, .post-title {
     font-family: $font-family-sans !important;
     font-weight: 900;
+  }
+  
+  p, li {
+    font-weight: 500;
   }
 }
 
@@ -34,4 +44,9 @@ body {
 
 .markdown-body table tr:nth-child(2n) {
   background-color: #cfcac6 !important;
+}
+
+.markdown-body table {
+  width: 100% !important;
+  display: table !important;
 }
