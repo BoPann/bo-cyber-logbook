@@ -1,5 +1,17 @@
-{{ content }}
-<script src="https://giscus.app/client.js"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    <div class="blog-content">
+      {{ content }}
+    </div>
+
+    <script src="https://giscus.app/client.js"
         data-repo="BoPann/Bo-Cyber-logbook"
         data-repo-id="R_kgDOQl5pyA"
         data-category="Announcements"
@@ -13,4 +25,7 @@
         data-lang="en"
         crossorigin="anonymous"
         async>
-</script>
+    </script>
+
+</body>
+</html>
