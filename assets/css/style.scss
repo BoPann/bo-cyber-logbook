@@ -64,6 +64,23 @@ footer {
   text-align: center;
 }
 
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    a {
+        color: #444; /* Match your body text color */
+        font-size: 1.5rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #0077b5; /* LinkedIn Blue or choose a cyber-green/red */
+        }
+    }
+}
+
 /* Ensure the Giscus container inside the footer is also centered */
 .giscus, .giscus-frame, .giscus-comments {
   width: 100% !important;
