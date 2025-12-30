@@ -50,3 +50,17 @@ body {
   width: 100% !important;
   display: table !important;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .markdown-body {
+    padding: 15px; /* Less padding on small screens */
+    font-size: 16px; /* Ensure text is readable */
+  }
+  
+  /* Make tables scrollable on mobile so they don't break the layout */
+  .markdown-body table {
+    display: block;
+    overflow-x: auto;
+  }
+}
