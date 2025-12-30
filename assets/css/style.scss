@@ -5,28 +5,25 @@
 
 $font-family-sans: "Montserrat", sans-serif;
 
-/* Target the actual body tag, not something inside .markdown-body */
+/* 1. Target the actual body tag */
 body {
-  color: #222;
-  margin: 0;
-  background-color: #cfcac6 !important; /* Force the background color */
+  background-color: #cfcac6 !important; /* Forces the grey background */
   font-family: $font-family-sans;
-  -webkit-font-smoothing: antialiased;
 }
 
-/* Apply Montserrat to everything inside the markdown area */
+/* 2. Style your content div */
 .markdown-body {
   font-family: $font-family-sans !important;
-  background-color: transparent !important; /* Let the body color show through */
+  color: #222 !important;
+  background-color: transparent !important; /* Let body color show through */
 
   h1, h2, h3, h4, .post-title {
     font-family: $font-family-sans !important;
     font-weight: 900;
-    letter-spacing: -0.02em;
   }
 }
 
-/* Your table styles are correct, keep them as is */
+/* 3. Table Overrides (Targeting Primer's specific classes) */
 .markdown-body table, 
 .markdown-body table tr, 
 .markdown-body table td, 
@@ -37,9 +34,4 @@ body {
 
 .markdown-body table tr:nth-child(2n) {
   background-color: #cfcac6 !important;
-}
-
-.markdown-body table {
-  width: 100% !important;
-  display: table !important;
 }
