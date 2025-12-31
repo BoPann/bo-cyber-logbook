@@ -23,7 +23,7 @@ Here, I document everything I need to survive (and thrive) using Vim on Linux.
 - $ : to the end of a line
 - dd : delete the whole line
 - E : jump forward to the end of a word
-- /  : search (then use `n` to nevigate the result)
+- /  : search (then use `n` to navigate the result)
 
 (Will continue adding, or feel free let me know some other tricks in the comment!) 
 
