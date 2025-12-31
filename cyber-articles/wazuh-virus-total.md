@@ -156,7 +156,7 @@ Therefore, a workaround is using [Yara](../advent-of-cyber-2025/day13-YARA.md). 
 - [Wazuh and Virustotal Integrations](https://documentation.wazuh.com/current/user-manual/capabilities/malware-detection/virus-total-integration.html)
 
 ## Extended Readings: 
-- [Bo Cyber Logbook - Do you VIM it? - Linux Editor](soc-level1/tools/linux-vim.md)
+- [Bo Cyber Logbook - Do you VIM it? - Linux Editor](../soc-level1/tools/linux-vim.md)
 
 
 ---
