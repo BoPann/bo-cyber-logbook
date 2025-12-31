@@ -17,12 +17,13 @@ Here, I document everything I need to survive (and thrive) using Vim on Linux.
 
 
 ## In “normal” mode (the default mode when you enter Vim):
-- G → Jump to the last line
-- gg → to first line
-- 0 → to the start of a line
-- $ → to the end of a line
-- dd → delete the whole line
-- E → jump forward to the end of a word
+- G : Jump to the last line
+- gg : to first line
+- 0 : to the start of a line
+- $ : to the end of a line
+- dd : delete the whole line
+- E : jump forward to the end of a word
+- /  : search (then use `n` to nevigate the result)
 
 (Will continue adding, or feel free let me know some other tricks in the comment!) 
 
