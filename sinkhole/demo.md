@@ -1,4 +1,5 @@
->Here I walk you through the demo
+# Pi-Hole Demo
+
 ### Intro
 1. open up pihole admin page 
 2. show three pages (dashboard, query log and Domains)

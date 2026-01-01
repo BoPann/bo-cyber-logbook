@@ -6,7 +6,7 @@ tags:
 
 # Bo Pan
 
-<p align="center"> <img src="cyber-img/me-plane.jpeg" style="width: 80%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 15px;"> </p>
+<p align="center"> <img src="cyber-img/me-plane.jpeg" style="width: 80%; aspect-ratio: 21 / 9 object-fit: cover; border-radius: 15px;"> </p>
 
 ## About Me
 
