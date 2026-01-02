@@ -29,15 +29,11 @@ And who knows? Maybe this will help others who are on the same journey too. 😊
 
 ### 2.2 Events
 * [Live Session with John Hammond](detection-deception.md)
-
-### 2.3 Old Projects
-* [Sinkholing](sinkhole/README.md)
-* [Pi-Hole Set Up Walkthrough](sinkhole/pi-hole-set-up/README.md)
 * [Advent of Cyber Logbook 🎄](advent-of-cyber-2025/README.md)
 
 ---
 
-Last Modified: 2025-12-29  \
+Last Modified: 2025-12-29
 
 
 

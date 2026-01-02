@@ -43,6 +43,7 @@ Wazuh logs the triggered alert in the `/var/ossec/logs/integrations.log` file 
 
 ## Steps - Let's Begin
 
+### Wazuh Server
 On the Wazuh Server Machine. Server! I repeat. Don't go to the agent machine like I did :)\
 run `vim /var/ossec/etc/ossec.conf`
 
@@ -66,7 +67,7 @@ Go to Wazuh -> Threat Hunting -> Event \
 You should see this in the log
 `VirusTotal: Alert - /home/subuntu/checkFile/eicar - 65 engines detected this file` 
 
-Python Remove Automation
+### Remove Automation Script
 First we need to add a script on the agent for the server to trigger \
 On the agent, install jq `apt install jq`
 
@@ -132,6 +133,7 @@ find the `<active-response>` and add the following code: \
 
 restart the server `sudo systemctl restart wazuh-manager`
 
+### Testing
 Now back to the agent and try to download the testing file again\
 `curl https://secure.eicar.org/eicar.com -o eicar` 
 

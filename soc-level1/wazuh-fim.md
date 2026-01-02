@@ -27,7 +27,8 @@ We will be welcome by a bunch of noise. All we need is to find `<syscheck>` tag.
 
 
 Notice that I change the `frequency` to `10`. So our change can be picked up right away. \
-Alternatively, you can also do `<directories realtime="yes" check_all="yes">/home/subuntu/checkFile</directories>` to turn on the real time check. 
+Alternatively, you can also do `<directories realtime="yes" check_all="yes">/home/subuntu/checkFile</directories>` to turn on the real time check. \
+Alternatively, we can set `<directories realtime="yes" check_all="yes">/Users/bp/Downloads</directories>` instead. But note MacOS does not support real time check as of Jan 01, 2025. 
 
 
 Next, we insert this to the terminal (see screenshot) \
