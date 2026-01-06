@@ -10,12 +10,19 @@ Have you been phished?
 
 ## 1. Overview
 - Do not click any link!!!
-- check header
-	- does the sender detail addr match the sender mail addr?
-- check body 
-- check source code (there is a lot of information in here)
+- Check header
+	- `Received` - the last hop before it reaches your email server (the is the _ONLY_ header that can be trusted, other fields can be [masqueraded](../atks/masquerading.md))
+	- `Return Path` - the return email addr if the email fails to delivered
+	- `Replay-To` - The addr when users hit reply
+	- `X-Originating-ip` - sender's ip 
+	- **The Bottom-Up Rule:** Read them from bottom to top. The top-most is the last server receiving it.
+	- `Authentication-Results` - does it pass SPF, DKIM, DMARC?
+
+- Check body in source code
+	- Attackers often hide malicious code in the HTML/CSS (like transparent text or hidden redirects) that you can't see in the regular preview.
 - Usually there is link, check the link source
-	- has it been shortened? see: [shortened-url](../atks/shortened-url.md)
+	- has it been shortened? see: [Bo Cyber Logbook - Shortened Url](../atks/shortened-url.md)
+	- A link might say `portal.microsoft.com` but the source code reveals it points to `evilhacker.ru/login`.
 
 ## 2. Description
 
@@ -27,10 +34,10 @@ Have you been phished?
 - **Spoofed email address**
 - **URL shortening services**
 - **HTML to impersonate a legitimate brand**
-- **Pixel tracking**. See [pixel-tracking](../atks/pixel-tracking.md)
+- **Pixel tracking**. See [Bo Cyber Logbook - Pixel Tracking](../atks/pixel-tracking.md)
 * Link manipulation
 * Credential harvesting - [example on anyrun](https://app.any.run/tasks/12dcbc54-be0f-4250-b6c1-94d548816e5c/)
-* typosquatting - see [typosquatting](../atks/typosquatting.md)
+* typosquatting - see [Bo Cyber Logbook - Typosquatting](../atks/typosquatting.md)
 
 
 ### 2.3 Tools of Trade
@@ -40,28 +47,17 @@ Here are some tools that come in handy for analyzing email. They are also useful
 	- https://toolbox.googleapps.com/apps/messageheader/analyzeheader
 	- https://mha.azurewebsites.net/
 	- https://mailheader.org/
-- IP and DNS - [Bo Cyber Logbook - Threat Intelligence](../../../threat-intelligence.md)
-- Website Analysis
-	- screenshot - https://www.url2png.com/#testdrive
-	- URL info with screenshot https://urlscan.io/
-	- request and response - https://www.wannabrowser.net/
-	- reputation - https://talosintelligence.com/reputation_center/lookup?search=capitai-one.com
-	- URL info with screenshot https://urlscan.io/
-
-
 - Extracting link is tedious, here are some tools to help with that (thank god)
 	- https://www.convertcsv.com/url-extractor.htm
 	- https://gchq.github.io/CyberChef/#recipe=Extract_URLs(false,false,false)
-
-- File Hash - [Bo Cyber Logbook - Threat Intelligence](../../../threat-intelligence.md)
-
-- Sandbox tool
-	- https://app.any.run/
-	- https://hybrid-analysis.com/
+- PDF Parser
+- Threat Intel including website, domain, ip and file - [Bo Cyber Logbook - Threat Intelligence](../threat-intelligence.md)
 
 
 ## Extended Readings: 
-- [Bo Cyber Logbook - Threat Intelligence](../../../threat-intelligence.md)
+- [Bo Cyber Logbook - Threat Intelligence](../threat-intelligence.md)
+
+
 
 ---
 last modified: 2026-01-02

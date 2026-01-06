@@ -14,6 +14,10 @@ tags:
 - [My Third Quarter Review](../third-quarter-review.md) 
 
 ## Technical Skills
+
+- [Alert Triage Workflow](triage-workflow.md) - SOC's Workflow
+- [Threat Intelligence](threat-intelligence.md) - Detective's Book
+
 - Framework
 	- [Cyber Kill Chain - What's happening, Captain? ](framework/cyber-kill-chain.md)
 	- [MITRE - The nerdy Encyclopedia ](framework/MITRE.md)

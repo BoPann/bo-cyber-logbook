@@ -8,7 +8,10 @@ tags:
 > YOU GOT A MAIL!
 
 ## 1. Overview 
-It relys on 3 protocols: SMTP, POP3, IMAP
+- Format 
+- Header
+- Process of Sending
+- 3 protocols: SMTP, POP3, IMAP
 
 ## 2. Decription
 
@@ -16,9 +19,11 @@ It relys on 3 protocols: SMTP, POP3, IMAP
 Email generally follow a format called IMF (Internet Message Format). It is a set of rule of how an email meesage must follow (like `From:`, `To:`, `Subject:`)
 
 ### 2.2 Email Header 
-- Received - the last hop before it reaches your email server (the is the _ONLY_ header that can be trusted, other fields can be [masqueraded](../atks/masquerading.md))
-- Return Path - the return email addr if the email fails to delivered
-- X-Originating-ip - sender's ip 
+- `Received` - the last hop before it reaches your email server (the is the _ONLY_ header that can be trusted, other fields can be [masqueraded](../atks/masquerading.md))
+- `Return Path` - the return email addr if the email fails to delivered
+- `Replay-To` - The addr when users hit reply
+- `X-Originating-ip` - sender's ip 
+- **The Bottom-Up Rule:** Read them from bottom to top. The top-most is the last server receiving it.
 
 ### 2.3 Process of Sending
 1. **Client to Server:** Your email client (like Gmail or Outlook) connects to your email provider's **outgoing mail server** (the **SMTP** server) and hands off the message.

@@ -1,6 +1,6 @@
 ---
 creation date: 2025-12-26 13:23
-modified: 2025-12-27 12:49
+modified: 2026-01-05 19:01
 tags:
 ---
 ## Cyber Articles 
@@ -15,9 +15,15 @@ While technical skills are critical for staying safe, keeping up with the latest
 - [Wazuh FIM Walkthrough](wazuh-fim.md)
 - [Wazuh VirusTotal Integration Walkthrough](wazuh-virus-total.md)
 - [Linux Vim Editor](../soc-level1/tools/linux-vim.md)
+- [Alert Triage](alert-triage.md)
+- [IBM 2026 Prediction](ibm-2026.md)
+
 
 
 ---
-Last Modified: 2025-12-27  \
+Last Modified: 2026-01-05
+
+
+
 
 

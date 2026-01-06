@@ -16,14 +16,14 @@ tags:
 
 ## Must Know Code
 
-|**Code**|**Name**|**SOC Meaning / Investigation Tip**|
-|---|---|---|
-|**200**|**OK**|**The Danger Zone.** If you see a SQL injection attempt and the response is `200`, the attacker might have successfully extracted data.|
-|**401**|**Unauthorized**|**Authentication needed.** A spike in 401s from one IP suggests a **Brute Force** or **Credential Stuffing** attack.|
-|**403**|**Forbidden**|**Access Denied.** The server understood the request but refuses it. Often triggered by a WAF blocking an attack.|
-|**404**|**Not Found**|**Fuzzing/Scanning.** If one IP generates hundreds of 404s, they are likely using a tool like `Dirbuster` to find hidden files/folders.|
-|**429**|**Too Many Requests**|**Rate Limiting.** The attacker is sending requests too fast. This is a clear indicator of automated tooling.|
-|**500**|**Internal Error**|**Potential Exploit.** An attacker's payload (like a Buffer Overflow) might have crashed the application logic.|
+| **Code** | **Name**              | **SOC Meaning / Investigation Tip**                                                                                                     |
+| -------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **200**  | **OK**                | **The Danger Zone.** If you see a SQL injection attempt and the response is `200`, the attacker might have successfully extracted data. |
+| **401**  | **Unauthorized**      | **Authentication needed.** A spike in 401s from one IP suggests a **Brute Force** or **Credential Stuffing** attack.                    |
+| **403**  | **Forbidden**         | **Access Denied.** The server understood the request but refuses it. Often triggered by a WAF blocking an attack.                       |
+| **404**  | **Not Found**         | **Fuzzing/Scanning.** If one IP generates hundreds of 404s, they are likely using a tool like `Dirbuster` to find hidden files/folders. |
+| **429**  | **Too Many Requests** | **Rate Limiting.** The attacker is sending requests too fast. This is a clear indicator of automated tooling.                           |
+| **500**  | **Internal Error**    | **Potential Exploit.** An attacker's payload (like a Buffer Overflow) might have crashed the application logic.                         |
 
 # Extended Readings:
 - [Parent Page - Bo Cyber LogBook - Web Security Monitoring](web-monitoring.md)

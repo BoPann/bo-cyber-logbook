@@ -19,7 +19,6 @@ tags:
 - [Parent Page - Bo Cyber LogBook - Web Security Monitoring](web-monitoring.md)
 
 ---
-Last Modified: 2025-12-28  \
-Have Questions? Shoot me a text >> [Linkedin](https://www.linkedin.com/in/bopann/)
+Last Modified: 2025-12-28 
 
 
