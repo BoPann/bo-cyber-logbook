@@ -15,8 +15,9 @@ tags:
 
 ## Technical Skills
 
-- [Alert Triage Workflow](triage-workflow.md) - SOC's Workflow
-- [Threat Intelligence](threat-intelligence.md) - Detective's Book
+- Core Skills
+	- [Alert Triage Workflow](triage-workflow.md) - SOC's Workflow
+	- [Threat Intelligence](threat-intelligence.md) - Detective's Book
 
 - Framework
 	- [Cyber Kill Chain - What's happening, Captain? ](framework/cyber-kill-chain.md)

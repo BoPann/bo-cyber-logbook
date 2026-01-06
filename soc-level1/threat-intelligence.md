@@ -27,10 +27,12 @@ tags:
 ### 2 questions to ask 
 1. Who owns the IP? 
 2. What service does it expose?
+
 ### DNS 
  - https://www.nslookup.io/
  - https://dnschecker.org/
  - https://mxtoolbox.com/SuperTool.aspx
+ 
 ### IP
 - location - https://tools.keycdn.com/geo
 - service - https://www.shodan.io/ , https://search.censys.io/
