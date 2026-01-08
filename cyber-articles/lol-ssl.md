@@ -7,9 +7,9 @@ So what happened?
 
 **Someone forgot to renew a subscription.** 😭
 
-
 SSL—short for "Secure Sockets Layer"—is a security protocol for establishing encrypted connections between a server and client. To form an SSL connection, the client and server verify each other's SSL certificates, which are issued by trusted third-party certificate authorities and must be regularly renewed. 
 
+And this time they revew it for 100 years lol
 
 
 ## Resources

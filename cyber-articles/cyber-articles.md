@@ -17,7 +17,7 @@ While technical skills are critical for staying safe, keeping up with the latest
 - [Linux Vim Editor](../soc-level1/tools/linux-vim.md)
 - [Alert Triage](alert-triage.md)
 - [IBM 2026 Prediction](ibm-2026.md)
-
+- 
 
 
 ---
