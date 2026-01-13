@@ -18,6 +18,7 @@ While technical skills are critical for staying safe, keeping up with the latest
 - [Alert Triage](../../alert-triage.md)
 - [IBM 2026 Prediction](ibm-2026.md)
 - [5 Security Principles](security-principles.md)
+- [Google Dorking](dork-gemini.md)
 
 
 ---
